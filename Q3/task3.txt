@@ -1,0 +1,3 @@
+Advantages of worker threads are that the cpu intensive tasks are directed to worker threads reducing the load on the main thread to handle incomming requests. 
+Our Application can handle more concurrent users without significant degradation in performance by distributing the load across multiple worker threads.
+One disadvantage is that when using worker threads, it adds complexity to the codebase, requiring additional error handling and communication mechanisms between threads.

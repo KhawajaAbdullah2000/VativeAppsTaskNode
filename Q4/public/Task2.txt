@@ -1,0 +1,2 @@
+To handle large requests, we can use Use a load balancer to distribute incoming connections across multiple WebSocket server instances. This helps to spread the load and avoid overloading a single server.
+We can iplement mechanisms to detect and close idle or inactive connections to free up resources.

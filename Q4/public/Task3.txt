@@ -1,0 +1,2 @@
+Caching can improve the performance and scalability of a real-time chat application by reducing the load on the server and speeding up data retrieval.
+We can Cache recent messages to reduce the need to fetch this data from a database repeatedly. We can use Redis to store the frequent data efficiently to reduce load and response time.
